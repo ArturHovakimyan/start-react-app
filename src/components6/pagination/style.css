@@ -1,0 +1,13 @@
+.active{
+    width: 27px;
+    height: 27px;
+    background-color: green;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.paginationWrapper{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

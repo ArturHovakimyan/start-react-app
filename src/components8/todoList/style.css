@@ -1,0 +1,52 @@
+.toduListWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.toduList {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  border: 1px solid pink;
+  border-radius: 8px;
+}
+.todo {
+  height: 36px;
+  border: 1px solid pink;
+  color: rgb(13, 196, 59);
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+}
+.todoes {
+  width: 80%;
+}
+.icon {
+  margin-left: 5px;
+  width: 24px;
+  height: 24px;
+}
+.done {
+  text-decoration: line-through;
+}
+.input {
+  height: 25px;
+}
+.button {
+  width: 70px;
+  height: 31px;
+  border: none;
+  color: rgb(46, 40, 40);
+  border-radius: 0px 5px 5px 0px;
+  background: rgb(61, 248, 61);
+}
+.addTodo {
+  margin-top: 10px;
+}
